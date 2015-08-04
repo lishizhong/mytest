@@ -12,13 +12,4 @@
     <version>3.3</version>
 </dependency>
 </dependencies>
-
-<build>
-<defaultGoal>compile</defaultGoal>
-<resources>
-<resource>
-<directory>src/myTelnet</directory>
-</resource>
-</resources>
-</build>
 </project>
