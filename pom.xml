@@ -1,22 +1,22 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <dependencies>
+<modelVersion>4.0.0</modelVersion>
+<groupId>mytestgroup</groupId>
+<artifactId>mytestartifact</artifactId>
+<packaging>jar</packaging>
+<version>0.0.1</version>
+
+<dependencies>
   <dependency>
     <groupId>commons-net</groupId>
     <artifactId>commons-net</artifactId>
     <version>3.3</version>
 </dependency>
-  </dependencies>
-  <groupId>mytestgroup</groupId>
-  <artifactId>mytestartifact</artifactId>
-  <version>0.0.1</version>
+</dependencies>
+
 <build>
 <resources>
 <resource>
 <directory>src/myTelnet</directory>
-<includes>
-<include>**/*</include>
-</includes>
 </resource>
 </resources>
 </build>
