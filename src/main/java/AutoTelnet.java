@@ -12,6 +12,7 @@ import org.apache.commons.net.telnet.TelnetClient;
   
 public class AutoTelnet {
     private TelnetClient telnet = new TelnetClient("VT220");  
+    
     private InputStream in;  
     private PrintStream out;  
   
